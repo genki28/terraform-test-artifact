@@ -1,0 +1,25 @@
+variable "region" {
+  default = "asia-northeast1"
+}
+
+variable "credential" {
+  default = {
+    data = ""
+  }
+}
+
+variable "github_repository" {
+  default = ""
+}
+
+variable "github_owner" {
+  default = ""
+}
+
+variable "github_branch" {
+  default = "^main$"
+}
+
+variable "project" {
+  default = ""
+}
